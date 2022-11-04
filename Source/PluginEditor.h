@@ -58,6 +58,7 @@ private:
                 lowCutSlopeSliderAttachment,
                 highCutSlopeSliderAttachment;
     
+    MonoChain monoChain;
     
     std::vector<juce::Component*> getComps();
 
